@@ -40,8 +40,11 @@ public:
         else if(month==2 && d>=1 && d<=28){
                 day=d;
         }
-        else{
-            day=d;
+        else if(month!=2){
+            if(d>=1 && d<=31){
+                day=d;
+
+            }
         }
        
     }

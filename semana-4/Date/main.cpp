@@ -14,6 +14,11 @@ int main(){
     }else{
         cout<<"El anio no es bisiesto"<<endl;
     }
+    int dia;
+    cout<<"ingrese el dia"<<endl;
+    cin>>dia;
+    d1.setDay(dia);
+    d1.displayDate();
    cout<<"-----------------------------------"<<endl;
     d2.displayDate();
     if(d2.isLeapYear()){
