@@ -10,7 +10,7 @@ class Date {
 public:
     explicit Date(int d, int m, int y) {
         if(m >= 1 && m <= 12) {
-        month = m;
+            month = m;
         }
         if(y>=1900 && y<=2050){
             year=y;
@@ -27,13 +27,13 @@ public:
             }
             else if(m==1 || m==3 || m==5 || m==7 || m==8 || m==10 || m==12){
                 if(d>=1 && d<=31){
-                day=d;
+                    day=d;
 
                 }
             }
             else if(m==4 || m==6 || m==8 || m==9 || m==11){
                 if(d>=1 && d<=30){
-                day=d;
+                    day=d;
 
                 }
             }
