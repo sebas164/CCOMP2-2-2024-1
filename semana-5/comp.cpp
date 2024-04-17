@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 
-    string cadena="albucomu bascomu comu chomu";
+    string cadena="comunicacionintegral comunicando vidas comunes";
     string cadena2="comu";
     int tam=0;
     int cont=0;
