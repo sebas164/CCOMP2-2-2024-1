@@ -38,12 +38,15 @@ int main(){
     cout<<"\nMAIN FUNCTION: EXECUTION BEGINS"<<endl;
     CreateAndDestroy second(2,"local in main");
     static CreateAndDestroy third(3,"local static in main");
+    CreateAndDestroy *p=new CreateAndDestroy(10,"nuevo metodo");
+    
 
     create();
 
     cout<<"\nMAIN FUNCTION: EXECUTION RESUMES"<<endl;
     CreateAndDestroy fourth(4,"local in main");
     cout<<"\nMAIN FUNCTION: EXECUTION ENDS"<<endl;
+    delete p;
 
 
 
