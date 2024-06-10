@@ -1,0 +1,6 @@
+go=g++ -c main.cpp -I"D:\SFML-2.6.1\include"
+
+ge= g++ main.o -o main -L"D:\SFML-2.6.1\lib" -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio 
+
+c=./main
+alias entre comillas el codigo
